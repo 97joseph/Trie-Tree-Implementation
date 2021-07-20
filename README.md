@@ -75,6 +75,10 @@ This shows the sequence of inserts in building Trie 7 shown earlier.
 Once the trie is set up for a list of words, you can compute word completions efficiently. 
 For instance, in the trie of Example 2 above (cat, muscle, ...),suppose you wanted to find all words that started with "po" (prefix). The search would start at the root, and touch the nodes [0,0,2],(1,0,2),(2,0,1),(2,2,2),(3,2,3),[2,3,6],[6,3,5],[3,4,7],[4,4,5]. The nodes [2,3,6],[6,3,5], [3,4,7],[4,4,5] are the ones that hold words that begin with the given prefix. 
 
+![WordTesxtSource](![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")?raw=true "Optional Title")
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
 For a detailed guide on how to build Tries, refer to the following post: https://medium.com/@amogh.avadhani/how-to-build-a-trie-tree-in-java-9d144aaa0d01
